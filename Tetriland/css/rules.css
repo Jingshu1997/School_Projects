@@ -1,0 +1,79 @@
+/* CSS du header - à CTRL C-V sur les différentes pages */
+
+header
+{
+	background: red;
+	background: linear-gradient(to right, red, orange , yellow, green, cyan, blue, violet); /* Standard syntax (must be last) */
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+}
+
+#titre
+{
+	text-align: center;
+}
+
+h1
+{
+	font-size: 4.0em;
+	margin: 5px;
+	color: black;
+}
+
+h2
+{
+	font-size: 2.0em;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	color: black;
+}
+
+h3
+{
+	text-align: center;
+	text-decoration: underline;
+}
+
+span#title
+{
+	color: white;
+	text-decoration: underline;
+}
+
+body
+{
+	background-color: #222222;
+	color: #FFFFFF;
+	color: white;
+}
+
+/*-----------------------------------------------------------------------*/
+
+#misc_div
+{
+	margin: 10px;
+	float: left;
+
+	background-color: #BBBBBB;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	padding: 10px;
+}
+
+#login_div
+{
+	margin: 10px;
+	float: right;
+	text-align: center;
+
+	background-color: #BBBBBB;
+	border: 2px solid black;
+	box-shadow: 5px 5px 5px black;
+	padding: 10px;
+	color: black;
+}
+
+#pavecesar
+{
+	text-align: left;
+}

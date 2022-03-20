@@ -1,0 +1,146 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	overflow: hidden;
+	margin: 0px;
+}
+
+#affichage{
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+}
+
+#plateaujeu{
+	width: 60%;
+	height: 100%;/*
+	border: 2px solid #312E2E;*/
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#side{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+
+#savepiece{
+	width: 20%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 200%;
+	font-family: "Nunito", cursive, sans-serif;
+}
+
+/*Ici, on a les background de nos pièces*/
+/*On fait des gradients de couleur : site https://cssgradient.io/*/
+
+.\30{
+	background-color: black;
+	border: 1px solid #151414;
+}
+
+/* vert */
+.\31{
+	background: rgb(20,193,31);
+	background: linear-gradient(120deg, rgba(20,193,31,1) 0%, rgba(29,227,35,1) 39%, rgba(0,255,46,1) 100%);
+	border: 1px solid #141714;
+}
+
+/*rouge*/
+.\32{
+	background: rgb(193,20,20);
+	background: linear-gradient(120deg, rgba(193,20,20,1) 0%, rgba(227,29,29,1) 39%, rgba(255,0,0,1) 100%);
+	border: 1px solid #171414;
+}
+
+/*jaune*/
+.\33{
+	background: rgb(193,174,20);
+	background: linear-gradient(120deg, rgba(193,174,20,1) 0%, rgba(227,204,29,1) 39%, rgba(241,255,0,1) 100%);
+	border: 1px solid #171714;
+}
+
+/*violet*/
+.\34{
+	background: rgb(138,20,193);
+	background: linear-gradient(120deg, rgba(138,20,193,1) 0%, rgba(181,29,227,1) 39%, rgba(209,0,255,1) 100%);
+	border: 1px solid #161417;
+}
+
+/*bleu foncé*/
+.\35{
+	background: rgb(20,65,193);
+	background: linear-gradient(120deg, rgba(20,65,193,1) 0%, rgba(29,77,227,1) 39%, rgba(0,79,255,1) 100%);
+	border: 1px solid #141417;
+}
+
+/*bleu clair*/
+.\36{
+	background: rgb(119,181,254);
+	background: linear-gradient(90deg, rgba(119,181,254,1) 0%, rgba(119,181,254,1) 16%, rgba(119,181,254,1) 100%);
+	border: 1px solid #141417;
+}
+
+/*orange*/
+.\37{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(255,165,0,1) 0%, rgba(255,165,0,1) 16%, rgba(255,165,0,1) 100%);
+	border: 1px solid #141417;
+}
+
+
+/*Ici, on a le style de nos grilles*/
+
+.ligne{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.premiere{
+	background-color: #470500;
+}
+
+#case{
+	width: 30px;
+	height: 30px;
+}
+
+.futurepiece{
+	display: flex;
+	flex-direction: row;
+	width: 120px;
+	height: 120px;
+}
+
+.sauvegarde{
+	display: flex;
+	flex-direction: row;
+	width: 120px;
+	height: 120px;
+}
+
+.score{
+	width: 100%;
+	height: 20%;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 200%;
+	font-family: "Nunito", cursive, sans-serif;
+}
